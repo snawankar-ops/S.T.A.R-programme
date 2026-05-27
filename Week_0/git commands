@@ -1,4 +1,62 @@
+to add a remote origin: git remote add origin git@github.com:your-username/your-repo.git
+To update an existing remote to use SSH: git remote set-url origin git@github.com:your-username/your-repo.git
+
+download changes from a remote repo: git fetch
+
+git pull: merge ur local repo with remote repo branch
+
+To delete a remote branch:git push origin --delete branch-name
+
+rename branch: git branch -m old-name new-name
+
+
+pull branch from github: first see allnbranches using git branch -a
+
+then checkout in the branch u wanna pull: git checkout <branchtobepulled>
+
+pushing branch to github: git push origin <branchnametobepushed>
+
+
 create a folder:   mkdir <foldername>
 create a file : touch <filename>
 see the status: git status
+creating a new branch (this just creates a pointer to the new branch) : git branch <branchname>
+seperate it from main branch: git checkout <branchname>
+switching branch : git check <to swutch branch>
+delete branch: git branch -d <branchtodelete>
+to see what is inside the file: cat <filename>
+unstage file : git restore --staged <filename>
+Wipes out all local changes you made to that file since your last commit: git restore <filename>
+To view the history: git log
+can also delete changes using: git reset <commit_id>   (will get id from git log)
+Stage all changes: git add --all or git add -A
+Commit all tracked changes (skip staging): git commit -a -m "message"
+Write Multi-line Commit Messages: git commit (no -m)
+
+tags: tag is like a pointer to the current commit
+light weight tag: git tag v1.0
+annotated tag: git tag -a v1.0 -m "Version 1.0 release"
+
+to tag a specific commit:
+git tag v1.1 1a2b3c4d
+
+see all tags: git tag, show tag details: git show v1.0
+#PUSHING TAGS TO REMOTE: push one tag: git push origin v1.0
+                         push all tags: git push --tags
+#deleting tags:git tag -d v1.0
+delete tag from remote repo: git push origin --delete tag v1.0
+
+move a tag to a different commit and update the remote:  git tag -f v1.0 <new-commit-hash>
+                                                         git push --force origin v1.0
+                                                      
+Save your current changes (both staged and unstaged tracked files) with: git stash
+							git stash push -m "WIP: homepage redesign"
+							
+what is different between your working directory and the last commit : git diff
+							
+compare two commits: git diff <commit1> <commit2>
+
+hat is different between your staged files and the last commit:  git diff --staged
+									 
+
 
