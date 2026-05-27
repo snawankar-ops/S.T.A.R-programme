@@ -1,0 +1,4 @@
+create a folder:   mkdir <foldername>
+create a file : touch <filename>
+see the status: git status
+
