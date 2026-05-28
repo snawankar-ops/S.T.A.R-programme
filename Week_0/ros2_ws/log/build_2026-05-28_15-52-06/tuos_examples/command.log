@@ -1,0 +1,4 @@
+Invoking command in '/home/sarah/ros2_ws/build/tuos_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/tuos_examples -- -j12 -l12
+Invoked command in '/home/sarah/ros2_ws/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/tuos_examples -- -j12 -l12
+Invoking command in '/home/sarah/ros2_ws/build/tuos_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/tuos_examples
+Invoked command in '/home/sarah/ros2_ws/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/tuos_examples

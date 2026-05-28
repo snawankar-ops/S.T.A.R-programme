@@ -1,0 +1,36 @@
+[0.010s] Invoking command in '/home/sarah/ros2_ws/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/tuos_tb3_tools -- -j12 -l12
+[0.037s] Invoked command in '/home/sarah/ros2_ws/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/tuos_tb3_tools -- -j12 -l12
+[0.045s] Invoking command in '/home/sarah/ros2_ws/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/tuos_tb3_tools
+[0.050s] -- Install configuration: ""
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/lib/tuos_tb3_tools/tb3_status.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/_slam_sim.launch.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/ros.launch.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/slam.launch.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/rviz.launch.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/_rviz_sim.launch.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/_rviz_real.launch.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/_slam_real.launch.py
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz
+[0.050s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/slam_sim.rviz
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/waffle_slam.rviz
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/rviz_real.rviz
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/waffle.rviz
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/rviz_sim.rviz
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/slam_real.rviz
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/ament_index/resource_index/package_run_dependencies/tuos_tb3_tools
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/ament_index/resource_index/parent_prefix_path/tuos_tb3_tools
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/ament_prefix_path.sh
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/ament_prefix_path.dsv
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/path.sh
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/path.dsv
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.bash
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.sh
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.zsh
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.dsv
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.dsv
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/ament_index/resource_index/packages/tuos_tb3_tools
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/cmake/tuos_tb3_toolsConfig.cmake
+[0.051s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/cmake/tuos_tb3_toolsConfig-version.cmake
+[0.052s] -- Installing: /home/sarah/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.xml
+[0.053s] Invoked command in '/home/sarah/ros2_ws/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/tuos_tb3_tools

@@ -1,0 +1,9 @@
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/uninstall.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/tuos_simulations_uninstall.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/test.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/edit_cache.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/rebuild_cache.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/list_install_components.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/install.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/install/local.dir
+/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/install/strip.dir

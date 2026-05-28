@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from part1_pubsub/msg/Example.msg
+// generated code does not contain a copyright notice
+
+
+module part1_pubsub {
+  module msg {
+    struct Example {
+      string info;
+
+      int32 time;
+    };
+  };
+};

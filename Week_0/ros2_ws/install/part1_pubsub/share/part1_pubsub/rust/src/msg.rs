@@ -1,0 +1,1 @@
+/home/sarah/ros2_ws/build/part1_pubsub/rosidl_generator_rs/part1_pubsub/rust/src/msg.rs

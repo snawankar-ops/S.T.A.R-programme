@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin
+      filename="gz-sim-imu-system"
+      name="gz::sim::systems::Imu">
+    </plugin>
+
+    <include>
+      <uri>model://sixteen_zone_floor</uri>
+    </include>
+
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
+    </include>
+
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>150</iters>
+          <precon_iters>0</precon_iters>
+          <sor>1.400000</sor>
+          <use_dynamic_moi_rescaling>1</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0.00001</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>2000.000000</contact_max_correcting_vel>
+          <contact_surface_layer>0.01000</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+
+    <include>
+      <uri>model://cr5_arena_walls</uri>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_long</uri>
+      <name>01_long_wall_a1</name>
+      <pose>1.12933 1.12933 0.0 0.0 0.0 -0.7854</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_long</uri>
+      <name>02_long_wall_a2</name>
+      <pose>1.12933 0.50000 0.0 0.0 0.0 0.7854</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_long</uri>
+      <name>03_long_wall_a3</name>
+      <pose>1.48000 -0.50000 0.0 0.0 0.0 0.0000</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_long</uri>
+      <name>04_long_wall_a3</name>
+      <pose>1.03500 -0.94500 0.0 0.0 0.0 1.5708</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_short</uri>
+      <name>05_short_wall_b2</name>
+      <pose>0.65556 0.34444 0.0 0.0 0.0 -0.7854</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_short</uri>
+      <name>06_short_wall_b3</name>
+      <pose>0.00000 -0.28000 0.0 0.0 0.0 1.5708</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_short</uri>
+      <name>07_short_wall_b3</name>
+      <pose>0.15709 -0.65926 0.0 0.0 0.0 -0.7854</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_long</uri>
+      <name>08_long_wall_c1</name>
+      <pose>-0.65374 1.38673 0.0 0.0 0.0 0.0000</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_short</uri>
+      <name>09_short_wall_c1</name>
+      <pose>-0.10437 1.19073 0.0 0.0 0.0 -1.0734</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_long</uri>
+      <name>10_long_wall_c3</name>
+      <pose>-0.94500 -1.00000 0.0 0.0 0.0 0.0000</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_short</uri>
+      <name>11_short_wall_c4</name>
+      <pose>-0.50000 -1.22500 0.0 0.0 0.0 1.5708</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_short</uri>
+      <name>12_short_wall_d2</name>
+      <pose>-1.03500 0.22500 0.0 0.0 0.0 1.5708</pose>
+    </include>
+
+    <include>
+      <uri>model://wooden_wall_long</uri>
+      <name>13_long_wall_d2</name>
+      <pose>-1.48000 0.00000 0.0 0.0 0.0 0.0000</pose>
+    </include>
+
+    <include>
+      <uri>model://beacon_green</uri>
+      <pose>1.81 1.81 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://beacon_yellow</uri>
+      <pose>1.155 -0.62 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://beacon_blue</uri>
+      <pose>-0.28264 1.26673 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://beacon_red</uri>
+      <pose>-0.62 -1.12 0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

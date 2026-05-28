@@ -1,0 +1,2 @@
+Invoking command in '/home/sarah/ros2_ws/build/tuos_simulations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/tuos_ros/tuos_simulations -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_simulations
+Invoked command in '/home/sarah/ros2_ws/build/tuos_simulations' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/tuos_ros/tuos_simulations -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_simulations

@@ -1,0 +1,9 @@
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/uninstall.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/tuos_task_sims_uninstall.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/test.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/edit_cache.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/rebuild_cache.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/list_install_components.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/install.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/install/local.dir
+/home/sarah/ros2_ws/build/tuos_task_sims/CMakeFiles/install/strip.dir

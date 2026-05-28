@@ -1,0 +1,119 @@
+[0.010s] Invoking command in '/home/sarah/ros2_ws/build/tuos_simulations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/tuos_ros/tuos_simulations -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_simulations
+[0.022s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Found ros_gz_sim: 0.244.24 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[0.187s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.191s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.199s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.337s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.360s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.388s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.392s] -- Looking for pthread.h
+[0.451s] -- Looking for pthread.h - found
+[0.451s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.507s] -- Found Threads: TRUE  
+[0.595s] -- Configuring done
+[0.599s] -- Generating done
+[0.601s] -- Build files have been written to: /home/sarah/ros2_ws/build/tuos_simulations
+[0.608s] Invoked command in '/home/sarah/ros2_ws/build/tuos_simulations' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/tuos_ros/tuos_simulations -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_simulations
+[0.609s] Invoking command in '/home/sarah/ros2_ws/build/tuos_simulations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/tuos_simulations -- -j12 -l12
+[0.648s] Invoked command in '/home/sarah/ros2_ws/build/tuos_simulations' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/tuos_simulations -- -j12 -l12
+[0.649s] Invoking command in '/home/sarah/ros2_ws/build/tuos_simulations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/tuos_simulations
+[0.657s] -- Install configuration: ""
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/launch
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/launch/nav_world.launch.py
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/launch/waffle.launch.py
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/launch/line_following.launch.py
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/launch/mystery_world.launch.py
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/launch/coloured_pillars.launch.py
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/launch/spawn_tb3.launch.py
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_walls
+[0.657s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_walls/model.config
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_walls/model.sdf
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/cr5_arena_walls
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/cr5_arena_walls/model.config
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/cr5_arena_walls/model.sdf
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/coloured_pillars
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/coloured_pillars/model.config
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/coloured_pillars/model.sdf
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_red
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_red/model.config
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_red/model.sdf
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/navigation
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/navigation/model.config
+[0.658s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/navigation/model.sdf
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/navigation/materials
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/navigation/materials/textures
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/navigation/materials/textures/navigation_floor.svg
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/navigation/materials/textures/navigation_floor.png
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_wall_1050_30_250
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_wall_1050_30_250/model.config
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_wall_1050_30_250/model.sdf
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_wall_1050_30_250/materials
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_wall_1050_30_250/materials/textures
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_wall_1050_30_250/materials/textures/wood.jpg
+[0.659s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/wooden_wall_1050_30_250/materials/textures/README.md
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_blue
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_blue/model.config
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_blue/model.sdf
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_floor
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_floor/model.config
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_floor/model.sdf
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_floor/materials
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_floor/materials/textures
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_floor/materials/textures/arena_floor.png
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_floor/materials/textures/arena_floor.svg
+[0.660s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_walls
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_walls/model.config
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/arena_walls/model.sdf
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_track
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_track/model.config
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_track/model.sdf
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_track/materials
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_track/materials/textures
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_track/materials/textures/line_following_track.svg
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_track/materials/textures/line_following_track.png
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_turquoise
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_turquoise/model.config
+[0.661s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_turquoise/model.sdf
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_setup
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_setup/model.config
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_setup/model.sdf
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_setup/materials
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_setup/materials/textures
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_setup/materials/textures/line_following_setup.svg
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/line_following_setup/materials/textures/line_following_setup.png
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_green
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_green/model.config
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/models/pillar_green/model.sdf
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/worlds
+[0.662s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/worlds/line_following_setup.world
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/worlds/line_following.world
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/worlds/coloured_pillars.world
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/worlds/nav.world
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/worlds/empty.world
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/rviz
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/rviz/waffle.rviz
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/rviz/waffle_cartographer.rviz
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/ament_index/resource_index/package_run_dependencies/tuos_simulations
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/ament_index/resource_index/parent_prefix_path/tuos_simulations
+[0.663s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/environment/ament_prefix_path.sh
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/environment/ament_prefix_path.dsv
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/environment/path.sh
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/environment/path.dsv
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/local_setup.bash
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/local_setup.sh
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/local_setup.zsh
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/local_setup.dsv
+[0.664s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.dsv
+[0.665s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/ament_index/resource_index/packages/tuos_simulations
+[0.665s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.665s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/cmake/tuos_simulationsConfig.cmake
+[0.665s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/cmake/tuos_simulationsConfig-version.cmake
+[0.665s] -- Installing: /home/sarah/ros2_ws/install/tuos_simulations/share/tuos_simulations/package.xml
+[0.667s] Invoked command in '/home/sarah/ros2_ws/build/tuos_simulations' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/tuos_simulations

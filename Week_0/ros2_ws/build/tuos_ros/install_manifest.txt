@@ -1,0 +1,15 @@
+/home/sarah/ros2_ws/install/tuos_ros/share/ament_index/resource_index/package_run_dependencies/tuos_ros
+/home/sarah/ros2_ws/install/tuos_ros/share/ament_index/resource_index/parent_prefix_path/tuos_ros
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/environment/ament_prefix_path.sh
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/environment/ament_prefix_path.dsv
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/environment/path.sh
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/environment/path.dsv
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/local_setup.bash
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/local_setup.sh
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/local_setup.zsh
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/local_setup.dsv
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/package.dsv
+/home/sarah/ros2_ws/install/tuos_ros/share/ament_index/resource_index/packages/tuos_ros
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/cmake/tuos_rosConfig.cmake
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/cmake/tuos_rosConfig-version.cmake
+/home/sarah/ros2_ws/install/tuos_ros/share/tuos_ros/package.xml

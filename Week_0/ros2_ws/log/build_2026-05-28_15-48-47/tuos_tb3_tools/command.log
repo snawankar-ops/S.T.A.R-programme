@@ -1,0 +1,1 @@
+Invoking command in '/home/sarah/ros2_ws/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/tuos_ros/tuos_tb3_tools -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_tb3_tools

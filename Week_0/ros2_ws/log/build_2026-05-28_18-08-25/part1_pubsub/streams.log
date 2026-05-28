@@ -1,0 +1,82 @@
+[0.006s] Invoking command in '/home/sarah/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/part1_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/part1_pubsub
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.470s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.510s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.512s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.562s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.638s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.661s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.693s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.698s] -- Looking for pthread.h
+[0.785s] -- Looking for pthread.h - found
+[0.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.870s] -- Found Threads: TRUE  
+[0.902s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[1.002s] -- Configuring done
+[1.004s] -- Generating done
+[1.006s] -- Build files have been written to: /home/sarah/ros2_ws/build/part1_pubsub
+[1.012s] Invoked command in '/home/sarah/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/part1_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/part1_pubsub
+[1.014s] Invoking command in '/home/sarah/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/part1_pubsub -- -j12 -l12
+[1.084s] Built target ament_cmake_python_symlink_part1_pubsub_modules
+[1.242s] running egg_info
+[1.242s] creating part1_pubsub_modules.egg-info
+[1.243s] writing part1_pubsub_modules.egg-info/PKG-INFO
+[1.243s] writing dependency_links to part1_pubsub_modules.egg-info/dependency_links.txt
+[1.243s] writing top-level names to part1_pubsub_modules.egg-info/top_level.txt
+[1.243s] writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[1.244s] reading manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[1.244s] writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[1.265s] Built target ament_cmake_python_build_part1_pubsub_modules_egg
+[1.275s] Invoked command in '/home/sarah/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/part1_pubsub -- -j12 -l12
+[1.287s] Invoking command in '/home/sarah/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/part1_pubsub
+[1.297s] -- Install configuration: ""
+[1.297s] -- Execute custom install script
+[1.298s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.sh
+[1.308s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.dsv
+[1.318s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[1.326s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.332s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.340s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/top_level.txt
+[1.346s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py
+[1.355s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py
+[1.366s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/lib/part1_pubsub/basic_velocity_control.py
+[1.372s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/lib/part1_pubsub/stop_me.py
+[1.379s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/lib/part1_pubsub/publisher.py
+[1.385s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/package_run_dependencies/part1_pubsub
+[1.392s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/parent_prefix_path/part1_pubsub
+[1.400s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.sh
+[1.406s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.dsv
+[1.414s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.sh
+[1.420s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.dsv
+[1.428s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.bash
+[1.436s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.sh
+[1.443s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.zsh
+[1.452s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.dsv
+[1.462s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.dsv
+[1.468s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/packages/part1_pubsub
+[1.476s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig.cmake
+[1.484s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig-version.cmake
+[1.492s] -- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.xml
+[1.520s] Listing '/home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules'...
+[1.520s] Compiling '/home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py'...
+[1.520s] Compiling '/home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py'...
+[1.525s] Invoked command in '/home/sarah/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/part1_pubsub

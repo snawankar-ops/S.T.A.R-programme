@@ -1,0 +1,4 @@
+source;share/tuos_ros/local_setup.bash
+source;share/tuos_ros/local_setup.dsv
+source;share/tuos_ros/local_setup.sh
+source;share/tuos_ros/local_setup.zsh

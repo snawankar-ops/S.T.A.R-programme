@@ -1,0 +1,8 @@
+action/CameraSweep.action
+action/CameraSweep.idl
+msg/Num.idl
+msg/Num.msg
+srv/NumberGame.idl
+srv/NumberGame.srv
+srv/NumberGame_Request.msg
+srv/NumberGame_Response.msg

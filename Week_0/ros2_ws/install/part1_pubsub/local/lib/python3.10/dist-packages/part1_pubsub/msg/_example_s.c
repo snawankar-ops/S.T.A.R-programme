@@ -1,0 +1,1 @@
+/home/sarah/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub/msg/_example_s.c

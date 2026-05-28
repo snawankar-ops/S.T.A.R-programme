@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tuos_interfaces__py",
+		"source" : "/home/sarah/ros2_ws/build/tuos_interfaces/tuos_interfaces__py"
+	}
+}

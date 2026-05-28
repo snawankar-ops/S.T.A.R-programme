@@ -1,0 +1,11 @@
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/uninstall.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/tuos_examples_uninstall.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/ament_cmake_python_copy_tuos_examples.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/ament_cmake_python_build_tuos_examples_egg.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/test.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/edit_cache.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/rebuild_cache.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/list_install_components.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/install.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/install/local.dir
+/home/sarah/ros2_ws/build/tuos_examples/CMakeFiles/install/strip.dir

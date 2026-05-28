@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tuos_interfaces/srv/NumberGame.srv
+// generated code does not contain a copyright notice
+
+
+module tuos_interfaces {
+  module srv {
+    struct NumberGame_Request {
+      int32 guess;
+    };
+    struct NumberGame_Response {
+      int32 guesses;
+
+      string hint;
+
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (tuos_examples) JobQueued: {'identifier': 'tuos_examples', 'dependencies': OrderedDict()}
+[0.000280] (tuos_interfaces) JobQueued: {'identifier': 'tuos_interfaces', 'dependencies': OrderedDict()}
+[0.000310] (tuos_simulations) JobQueued: {'identifier': 'tuos_simulations', 'dependencies': OrderedDict()}
+[0.000356] (tuos_tb3_tools) JobQueued: {'identifier': 'tuos_tb3_tools', 'dependencies': OrderedDict()}
+[0.000421] (tuos_task_sims) JobQueued: {'identifier': 'tuos_task_sims', 'dependencies': OrderedDict([('tuos_simulations', '/home/sarah/ros2_ws/install/tuos_simulations')])}
+[0.000495] (tuos_ros) JobQueued: {'identifier': 'tuos_ros', 'dependencies': OrderedDict([('tuos_examples', '/home/sarah/ros2_ws/install/tuos_examples'), ('tuos_interfaces', '/home/sarah/ros2_ws/install/tuos_interfaces'), ('tuos_simulations', '/home/sarah/ros2_ws/install/tuos_simulations'), ('tuos_tb3_tools', '/home/sarah/ros2_ws/install/tuos_tb3_tools'), ('tuos_task_sims', '/home/sarah/ros2_ws/install/tuos_task_sims')])}
+[0.000521] (tuos_simulations) JobStarted: {'identifier': 'tuos_simulations'}
+[0.003735] (tuos_examples) JobStarted: {'identifier': 'tuos_examples'}
+[0.005173] (tuos_interfaces) JobStarted: {'identifier': 'tuos_interfaces'}
+[0.007078] (tuos_tb3_tools) JobStarted: {'identifier': 'tuos_tb3_tools'}
+[0.009121] (tuos_simulations) JobProgress: {'identifier': 'tuos_simulations', 'progress': 'cmake'}
+[0.009317] (tuos_simulations) Command: {'cmd': ['/usr/bin/cmake', '/home/sarah/ros2_ws/src/tuos_ros/tuos_simulations', '-DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_simulations'], 'cwd': '/home/sarah/ros2_ws/build/tuos_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sarah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sarah'), ('OLDPWD', '/home/sarah/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sarah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sarah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sarah-LOQ-15IAX9:@/tmp/.ICE-unix/1764,unix/sarah-LOQ-15IAX9:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/183255e2_1352_4f61_abf1_30401671480d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JX8WP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sarah/ros2_ws/build/tuos_simulations'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.010808] (tuos_examples) JobProgress: {'identifier': 'tuos_examples', 'progress': 'cmake'}
+[0.011082] (tuos_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/sarah/ros2_ws/src/tuos_ros/tuos_examples', '-DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_examples'], 'cwd': '/home/sarah/ros2_ws/build/tuos_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sarah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sarah'), ('OLDPWD', '/home/sarah/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sarah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sarah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sarah-LOQ-15IAX9:@/tmp/.ICE-unix/1764,unix/sarah-LOQ-15IAX9:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/183255e2_1352_4f61_abf1_30401671480d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JX8WP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sarah/ros2_ws/build/tuos_examples'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.011817] (tuos_interfaces) JobProgress: {'identifier': 'tuos_interfaces', 'progress': 'cmake'}
+[0.012088] (tuos_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sarah/ros2_ws/src/tuos_ros/tuos_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_interfaces'], 'cwd': '/home/sarah/ros2_ws/build/tuos_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sarah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sarah'), ('OLDPWD', '/home/sarah/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sarah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sarah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sarah-LOQ-15IAX9:@/tmp/.ICE-unix/1764,unix/sarah-LOQ-15IAX9:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/183255e2_1352_4f61_abf1_30401671480d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JX8WP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sarah/ros2_ws/build/tuos_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014974] (tuos_tb3_tools) JobProgress: {'identifier': 'tuos_tb3_tools', 'progress': 'cmake'}
+[0.015625] (tuos_tb3_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/sarah/ros2_ws/src/tuos_ros/tuos_tb3_tools', '-DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/tuos_tb3_tools'], 'cwd': '/home/sarah/ros2_ws/build/tuos_tb3_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sarah'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sarah'), ('OLDPWD', '/home/sarah/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sarah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sarah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sarah-LOQ-15IAX9:@/tmp/.ICE-unix/1764,unix/sarah-LOQ-15IAX9:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/183255e2_1352_4f61_abf1_30401671480d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JX8WP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sarah/ros2_ws/build/tuos_tb3_tools'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068509] (tuos_simulations) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.068674] (tuos_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.069495] (tuos_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.070892] (tuos_tb3_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099453] (-) TimerEvent: {}
+[0.114596] (tuos_tb3_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.114800] (tuos_simulations) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.119423] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.121349] (tuos_simulations) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.122530] (tuos_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.125696] (tuos_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.129225] (tuos_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.131961] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.165387] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.168291] (tuos_simulations) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.173301] (tuos_tb3_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.173497] (tuos_simulations) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.173611] (tuos_simulations) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.173683] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.173781] (tuos_simulations) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.173889] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.175690] (tuos_simulations) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.176672] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.179373] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184688] (tuos_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.184841] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.184965] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.187042] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.191503] (tuos_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.197123] (tuos_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.197364] (tuos_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.197518] (tuos_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199512] (-) TimerEvent: {}
+[0.199732] (tuos_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.234941] (tuos_simulations) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.241902] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.242971] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.243326] (tuos_simulations) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.243581] (tuos_simulations) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.244140] (tuos_simulations) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.246251] (tuos_simulations) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.248048] (tuos_tb3_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.248186] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.248606] (tuos_tb3_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.249448] (tuos_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.249642] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.249745] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.249989] (tuos_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.251141] (tuos_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.255349] (tuos_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.260591] (tuos_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.260753] (tuos_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.261005] (tuos_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.262211] (tuos_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299589] (-) TimerEvent: {}
+[0.359143] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.359583] (tuos_simulations) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.370053] (tuos_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.375935] (tuos_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399705] (-) TimerEvent: {}
+[0.421525] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.430918] (tuos_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.431130] (tuos_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.434414] (tuos_simulations) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[0.434589] (tuos_simulations) StderrLine: {'line': b'  By not providing "Findros_gz_sim.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.434670] (tuos_simulations) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.434745] (tuos_simulations) StderrLine: {'line': b'  "ros_gz_sim", but CMake did not find one.\n'}
+[0.434812] (tuos_simulations) StderrLine: {'line': b'\n'}
+[0.434876] (tuos_simulations) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros_gz_sim" with\n'}
+[0.434940] (tuos_simulations) StderrLine: {'line': b'  any of the following names:\n'}
+[0.435004] (tuos_simulations) StderrLine: {'line': b'\n'}
+[0.435067] (tuos_simulations) StderrLine: {'line': b'    ros_gz_simConfig.cmake\n'}
+[0.435131] (tuos_simulations) StderrLine: {'line': b'    ros_gz_sim-config.cmake\n'}
+[0.435194] (tuos_simulations) StderrLine: {'line': b'\n'}
+[0.435256] (tuos_simulations) StderrLine: {'line': b'  Add the installation prefix of "ros_gz_sim" to CMAKE_PREFIX_PATH or set\n'}
+[0.435320] (tuos_simulations) StderrLine: {'line': b'  "ros_gz_sim_DIR" to a directory containing one of the above files.  If\n'}
+[0.435383] (tuos_simulations) StderrLine: {'line': b'  "ros_gz_sim" provides a separate development package or SDK, be sure it has\n'}
+[0.435446] (tuos_simulations) StderrLine: {'line': b'  been installed.\n'}
+[0.435521] (tuos_simulations) StderrLine: {'line': b'\n'}
+[0.435587] (tuos_simulations) StderrLine: {'line': b'\x1b[0m\n'}
+[0.435651] (tuos_simulations) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.435726] (tuos_simulations) StdoutLine: {'line': b'See also "/home/sarah/ros2_ws/build/tuos_simulations/CMakeFiles/CMakeOutput.log".\n'}
+[0.437173] (tuos_simulations) CommandEnded: {'returncode': 1}
+[0.445615] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.448169] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.453304] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.455370] (tuos_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.455790] (tuos_simulations) JobEnded: {'identifier': 'tuos_simulations', 'rc': 1}
+[0.457796] (tuos_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.460662] (tuos_tb3_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.462785] (tuos_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.470168] (tuos_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.470455] (tuos_tb3_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.479908] (tuos_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.487526] (tuos_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.496499] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.497846] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499808] (-) TimerEvent: {}
+[0.504970] (tuos_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.506324] (tuos_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.507979] (tuos_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.510491] (tuos_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.515425] (tuos_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.522863] (tuos_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.532572] (tuos_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.558113] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.558783] (tuos_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.564769] (tuos_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.580212] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.581150] (tuos_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.599908] (-) TimerEvent: {}
+[0.608805] (tuos_tb3_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.611309] (tuos_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.613344] (tuos_tb3_tools) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.615758] (tuos_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.672900] (tuos_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.673094] (tuos_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.675361] (tuos_tb3_tools) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.675682] (tuos_tb3_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700027] (-) TimerEvent: {}
+[0.726282] (tuos_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.729975] (tuos_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.731098] (tuos_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.735023] (tuos_tb3_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.736174] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.764638] (tuos_examples) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.770227] (tuos_tb3_tools) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.800230] (-) TimerEvent: {}
+[0.813304] (tuos_tb3_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.815424] (tuos_tb3_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[0.816744] (tuos_tb3_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/sarah/ros2_ws/build/tuos_tb3_tools\n'}
+[0.822624] (tuos_tb3_tools) JobEnded: {'identifier': 'tuos_tb3_tools', 'rc': 'SIGINT'}
+[0.868626] (tuos_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.871342] (tuos_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[0.872771] (tuos_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/sarah/ros2_ws/build/tuos_examples\n'}
+[0.878414] (tuos_examples) JobEnded: {'identifier': 'tuos_examples', 'rc': 'SIGINT'}
+[0.900363] (-) TimerEvent: {}
+[0.962076] (tuos_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000559] (-) TimerEvent: {}
+[1.074620] (tuos_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.095479] (tuos_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.096286] (tuos_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.100617] (-) TimerEvent: {}
+[1.124689] (tuos_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.124882] (tuos_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.124956] (tuos_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.125018] (tuos_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.145331] (tuos_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.200687] (-) TimerEvent: {}
+[1.227428] (tuos_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.229653] (tuos_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.230852] (tuos_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.234889] (tuos_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.256492] (tuos_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.264263] (tuos_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sarah/ros2_ws/build/tuos_interfaces\n'}
+[1.270495] (tuos_interfaces) JobEnded: {'identifier': 'tuos_interfaces', 'rc': 'SIGINT'}
+[1.281145] (tuos_task_sims) JobSkipped: {'identifier': 'tuos_task_sims'}
+[1.281166] (tuos_ros) JobSkipped: {'identifier': 'tuos_ros'}
+[1.281177] (-) EventReactorShutdown: {}

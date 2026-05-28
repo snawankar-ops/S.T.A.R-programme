@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sarah/ros2_ws/build/part1_pubsub
+Built target ament_cmake_python_symlink_part1_pubsub_modules
+running egg_info
+creating part1_pubsub_modules.egg-info
+writing part1_pubsub_modules.egg-info/PKG-INFO
+writing dependency_links to part1_pubsub_modules.egg-info/dependency_links.txt
+writing top-level names to part1_pubsub_modules.egg-info/top_level.txt
+writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+reading manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_part1_pubsub_modules_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.sh
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.dsv
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/lib/part1_pubsub/basic_velocity_control.py
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/lib/part1_pubsub/stop_me.py
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/lib/part1_pubsub/publisher.py
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/package_run_dependencies/part1_pubsub
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/parent_prefix_path/part1_pubsub
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.sh
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.sh
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.dsv
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.bash
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.sh
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.zsh
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.dsv
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.dsv
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/packages/part1_pubsub
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig.cmake
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig-version.cmake
+-- Symlinking: /home/sarah/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.xml
+Listing '/home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules'...
+Compiling '/home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py'...
+Compiling '/home/sarah/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py'...

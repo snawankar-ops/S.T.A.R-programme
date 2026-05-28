@@ -1,0 +1,1 @@
+/home/sarah/ros2_ws/build/part1_pubsub/rosidl_generator_py/part1_pubsub/_part1_pubsub_s.ep.rosidl_typesupport_c.c

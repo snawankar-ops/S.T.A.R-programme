@@ -1,0 +1,1 @@
+/home/sarah/ros2_ws/build/part1_pubsub/ament_cmake_core/part1_pubsubConfig.cmake

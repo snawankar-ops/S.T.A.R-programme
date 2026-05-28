@@ -1,0 +1,6 @@
+Invoking command in '/home/sarah/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/part1_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/part1_pubsub
+Invoked command in '/home/sarah/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarah/ros2_ws/src/part1_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sarah/ros2_ws/install/part1_pubsub
+Invoking command in '/home/sarah/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/part1_pubsub -- -j12 -l12
+Invoked command in '/home/sarah/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarah/ros2_ws/build/part1_pubsub -- -j12 -l12
+Invoking command in '/home/sarah/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/part1_pubsub
+Invoked command in '/home/sarah/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarah/ros2_ws/build/part1_pubsub

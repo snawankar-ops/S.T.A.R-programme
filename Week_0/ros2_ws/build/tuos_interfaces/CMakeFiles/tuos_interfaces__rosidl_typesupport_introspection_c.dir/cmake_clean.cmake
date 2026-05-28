@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/action/detail/camera_sweep__type_support.c.o"
+  "CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/action/detail/camera_sweep__type_support.c.o.d"
+  "CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/msg/detail/num__type_support.c.o"
+  "CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/msg/detail/num__type_support.c.o.d"
+  "CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/srv/detail/number_game__type_support.c.o"
+  "CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tuos_interfaces/srv/detail/number_game__type_support.c.o.d"
+  "libtuos_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libtuos_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/tuos_interfaces/action/detail/camera_sweep__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tuos_interfaces/action/detail/camera_sweep__type_support.c"
+  "rosidl_typesupport_introspection_c/tuos_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tuos_interfaces/msg/detail/num__type_support.c"
+  "rosidl_typesupport_introspection_c/tuos_interfaces/srv/detail/number_game__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tuos_interfaces/srv/detail/number_game__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/tuos_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

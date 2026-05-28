@@ -1,0 +1,1 @@
+/home/sarah/ros2_ws/build/part1_pubsub/rosidl_generator_cpp/part1_pubsub/msg/detail/example__struct.hpp

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tuos_task_sims</name>
+  <version>0.0.1</version>
+  <description>
+    Simulation resources for ROS 2 Course Assignments
+  </description>
+  <maintainer email="t.howard@sheffield.ac.uk">Tom Howard</maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>ros_gz_sim</depend>
+  <depend>tuos_simulations</depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+
+</package>

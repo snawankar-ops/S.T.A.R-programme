@@ -1,0 +1,1 @@
+/home/sarah/ros2_ws/build/part1_pubsub/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

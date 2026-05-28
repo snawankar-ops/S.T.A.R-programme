@@ -1,0 +1,10 @@
+#goal
+float32 sweep_angle   # Angular sweep (in degrees) over which to capture images 
+int32 image_count     # Number of images to capture during the sweep
+---
+#result
+string[] image_paths  # Full path to each of the captured images
+---
+#feedback
+int32 current_image   # Number of images taken
+float32 current_angle # Current angular position of the robot (in degrees)

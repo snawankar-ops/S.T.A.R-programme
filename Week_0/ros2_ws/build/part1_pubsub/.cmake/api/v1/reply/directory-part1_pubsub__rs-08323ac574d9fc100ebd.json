@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "part1_pubsub__rs",
+		"source" : "/home/sarah/ros2_ws/build/part1_pubsub/part1_pubsub__rs"
+	}
+}

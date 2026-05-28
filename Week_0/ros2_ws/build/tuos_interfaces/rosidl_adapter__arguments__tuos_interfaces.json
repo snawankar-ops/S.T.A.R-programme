@@ -1,0 +1,8 @@
+{
+  "package_name": "tuos_interfaces",
+  "non_idl_tuples": [
+    "/home/sarah/ros2_ws/src/tuos_ros/tuos_interfaces:msg/Num.msg",
+    "/home/sarah/ros2_ws/src/tuos_ros/tuos_interfaces:action/CameraSweep.action",
+    "/home/sarah/ros2_ws/src/tuos_ros/tuos_interfaces:srv/NumberGame.srv"
+  ]
+}
