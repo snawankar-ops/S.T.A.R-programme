@@ -1,0 +1,73 @@
+pwd #print working directory
+cd . #current directory
+cd .. #one higher directory
+cd ~  #home directory
+cd -  #go to pvs directory
+
+ls -a #list all files
+ls -r #list in rev alpha. order
+ls -l # detailed list
+ls -la #display all files in detailed manner
+
+touch <filename> #update timestamp to current time
+touch -r <file1> <file2> #update file2 timestamp to file1 stamp
+touch -d "newtimestamp" <filemame>
+
+cat <filename>  #print content of file on terminal
+cat > <filename> create new file and add text to it. to exit: newline and then ctrl+D
+cat -n #numbers all output lines
+cat -b #number non empty output lines
+
+less <filename> #dissplay file in less interface
+pageup, pagedown, G to go to end , g to go to start. h tohelp.
+search using /
+
+history  #view all the pvsly used commands
+
+clear #wipe display and start with a fresh screen
+
+cp <source> <destination>   #copying a file
+cp -r <source folder> <destination>  #copy all content of source folder
+cp -p #copy without updating metadata like timestamps,ownership
+
+mv <oldfilename> <newfilename>
+mv <olddirectoryname> <newdirectoryname>
+mv <file1> <file2> directory
+use -i #ask for conformation before overwriting
+-b #backup, maintain copy
+
+
+mkdir -p books/hemmingway/favorites # to create the directory favorites inside hemmingway, which is inside books
+
+rm <filename>   #permanently dlete a file
+rm -i #asks conformation for each file 
+rm -f #force remove
+rm -r #remove directories
+rmdir #remove empty directories
+
+find <path> -name <filenametobesearchedfor>
+find <path> -type d -name <directorytobesearchedfor> #use-type to specify type and d is  for directory. 
+
+help <builtincommanduneedhelpwith>
+executable programs need: <commandname> --help
+
+man <command>  #see the manual on command
+
+whatis <command> #gives short description of what command does
+
+alias <newcmdname>='<oldcmdname>  #custom name for a command 
+can also make alias permanent
+unalias <newcmdname> #removes alias
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+level 0 : ssh bandit0@bandit.labs.overthewire.org -p 2220
+level2 : cat "./--spaces in this filename--"
+
+level6 : find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+
+level 8 : find the line that occurs exactly once : sort data.txt | uniq -u
+
