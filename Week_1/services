@@ -1,0 +1,11 @@
+list of services: ros2 service list
+interface type of service: ros2 service type /{service name}
+list all services with type besides them: ros2 service list -t
+
+
+ros2 interface list
+ros2 interface list -s : only service interfaces
+ros2 interface list | grep tuos_interfaces : service interfaces in the tuos_interfaces pkg.
+ros2 interface show tuos_interfaces/srv/NumberGame : show the msg str
+
+requesting a server: ros2 service call /guess_the_number tuos_interfaces/srv/NumberGame "{guess: 0}"

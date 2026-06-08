@@ -1,0 +1,38 @@
+launch file basic str:
+
+from launch import LaunchDescription 
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='part1_pubsub',
+            executable='publisher.py',
+            name='my_publisher'
+        ),
+        Node(
+            # TODO: define the subscriber.py node...
+        )
+    ])
+    
+    
+    
+note: everytime u make changes to a launch file, youll have to run colcon build and source again.
+
+
+#PARAMETERS:
+
+parameter list:
+
+ros2 param list
+
+#put a filter: ros2 param list /nodename
+
+#setting value for parameter:  ros2 param set /{nodename} {parametername} {newvalue}
+
+how to save a map:
+go to package
+make new folder called maps
+go into this folder and type the following command:
+
+ros2 run nav2_map_server map_saver_cli -f {mapname}

@@ -1,0 +1,9 @@
+ RQT TOPIC MONITOR :ros2 run rqt_topic rqt_topic  
+ 
+ to get position and vel : ros2 interface show nav_msgs/msg/Odometry(type of interface)
+
+to only build one package: colcon build --packages-select <package name> --symlink-install
+
+publish data to a topic from terminal: ros2 topic pub {topic_name} {interface_type} {data}
+
+ros2 topic echo /{topic name} --field <what u wanna display>
