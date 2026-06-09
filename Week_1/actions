@@ -1,0 +1,7 @@
+ros2 action list
+
+ros2 action info /{actionname}
+
+ros2 action info -t /{action name}  (if u want more info abt interface typr n all)
+
+ros2 run part5_actions camera_sweep_action_client.py --ros-args -p goal_images:=3 -p goal_angle:=170
