@@ -1,0 +1,11 @@
+1. inflation_radius = 0.55 .
+
+when increased to 0.55 the radius around the obstacle decreased. obstacled appeared less bulky.
+
+2. controller_frequency increased to 20.0 
+
+it updated more frequently and thus has a smoother motion
+
+3. xy_tolerance increased to 2.  
+
+said reached goal while being further away fro the goal. Sometimes it didnt move at all
