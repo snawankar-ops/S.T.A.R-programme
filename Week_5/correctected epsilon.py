@@ -33,21 +33,19 @@ class EpsilonDecreasing:
 
 class UCB1:
     def __init__(self, actions):
-        # BUG FIX: pulls has to be tracked PER ARM (a dict), not a single
-        # shared counter -- otherwise pulls[a] in calculate_ucb would crash,
-        # since a plain int isn't subscriptable.
+       
         self.pulls = {a: 0 for a in actions}
         self.total_pulls = 0
 
     def calculate_ucb(self, a, q_values, pulls, total_pulls):
-        # BUG FIX: this used to `return self.calculate_ucb`, i.e. it
+       
         # returned the method itself instead of the computed number.
         ucb = q_values[a] + math.sqrt((2 * math.log(total_pulls)) / pulls[a])
         return ucb
 
     def select(self, q_values, actions):
-        # BUG FIX: try every arm once before the UCB formula is well-defined
-        # -- log(total_pulls=0) and dividing by pulls[a]=0 are both invalid.
+        # fix: try every arm once before the UCB formula is well-defined
+       
         untried = [a for a in actions if self.pulls[a] == 0]
         if untried:
             chosen = random.choice(untried)
@@ -78,7 +76,7 @@ def update_q_value(q_values, counts, totals, action, reward):
 actions = ['A', 'B', 'C']
 
 # The bandit's TRUE payout probabilities are randomly generated and
-# unknown to the agents -- they only ever see 0/1 rewards from pulls.
+# unknown to the agents 
 true_probs = {a: random.uniform(0.1, 0.9) for a in actions}
 print(f"True (hidden) payout probabilities: {true_probs}\n")
 
